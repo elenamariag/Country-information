@@ -27,6 +27,13 @@ ul {
     display: inline-block;
 }
 
+#search-countries-button {
+    font-family: 'Cairo', sans-serif;
+    font-size: x-large;
+    display: block;
+    text-align: center;
+}
+
 .blue {
    color: blue;
 }
