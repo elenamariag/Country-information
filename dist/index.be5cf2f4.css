@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Poppins:wght@500&display=swap');
-
+@import "https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Poppins:wght@500&display=swap";
 h1 {
     font-family: 'Cairo', sans-serif;
     text-decoration: underline;
@@ -7,6 +6,7 @@ h1 {
     text-align: center;
 
 }
+
 h3 {
     font-weight: bolder;
 
@@ -21,10 +21,12 @@ ul {
     background-color: antiquewhite;
     padding: 20px;
 }
+
 .flag {
     width: 50px;
     display: inline-block;
 }
+
 #search-countries-button {
     font-family: 'Cairo', sans-serif;
     font-size: x-large;
@@ -39,14 +41,19 @@ ul {
 .yellow {
     color: #F6BE00;
 }
+
 .red {
     color: #AB2328;
 }
+
 .green {
     color: #5AAB2B;
 }
+
 .purple {
     color: #693C5E;
 }
 
 
+
+/*# sourceMappingURL=index.be5cf2f4.css.map */
