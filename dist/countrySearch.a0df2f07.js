@@ -488,9 +488,9 @@ async function getCountryInfo(name) {
         console.log(result.data);
         const countries = result.data[0];
         containerResult.innerHTML = `
-        <img src="${countries.flag}" alt="country-flag" width="200px">
+        <img src="${countries.flag}" alt="country-flag" width="150px">
         <h3> ${countries.name}</h3>
-        <p>${countries.name} is situated in ${countries.subregion} and has a population of ${countries.population}</p>
+        <p class="flag-space">${countries.name} is situated in ${countries.subregion} and has a population of ${countries.population}</p>
         <p>The capital is ${countries.capital} ${getCurrencies(countries.currencies)} </p>
        
         `;
